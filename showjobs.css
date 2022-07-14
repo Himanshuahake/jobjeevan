@@ -1,0 +1,300 @@
+
+.trr{
+    border: 5px;
+    border-width: 5px;
+    border-color: brown;
+    
+}
+.Searchbox{
+
+    padding: 10px;
+    border: 1px;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    
+    }
+    
+    #searchbox
+    {
+    
+    height: 30px;
+    width: 350px;
+    
+    }
+    #searchbox1
+    {
+    
+    height: 30px;
+    width: 150px; 
+    
+    
+    }
+    .searchbox button:hover {
+      background: #0b7dda;
+    }
+    #btn {
+    
+        padding: 3px;
+        background: #2196F3;
+        color: white;
+        border: 2px;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        height: 35px;
+        width: 150px;
+        border-radius: 25px;
+        border-bottom-left-radius: 0px ;
+      border-top-left-radius: 0;
+      
+        
+      }
+      header{
+        background-color: #467daa;
+        margin: 0px;
+      
+      }
+      header img{
+        width: 122px;
+        height: 61px;
+    
+    }
+    .topnav a{
+        display: inline-block;
+        color: #bdeb67;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 5px;
+        
+      }
+      .topnav a:hover{
+          background-color: dodgerblue;
+        color: white;
+      }
+      .topnav{
+          float: right;
+          background-color:#467daa;
+      }
+    
+    
+    h1.top{
+        text-align: left;
+    }
+    p.create:hover{
+      background-color: rgb(2, 4, 12);
+      cursor: pointer;
+    }
+    div.gap2{
+      padding: 12px;
+    }
+   .sign{
+     float: right;
+     padding: 10px;
+   }
+   .sign a{
+     background-color: rgb(250, 253, 243);
+     padding: 15px;
+     border-radius: 12px;
+   }
+   .sign a:hover{
+     background-color: rgb(21, 115, 170);
+   }
+   /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  footer{
+      position: fixed;
+      bottom: 0;
+  }
+   
+  @media (max-height:800px){
+      footer { position: static; }
+      header { padding-top:40px; }
+  }
+   
+   
+  .footer-distributed{
+      background-color: #2d454e;
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px sans-serif;
+      padding: 50px 50px 60px 50px;
+      margin-top: 80px;
+  }
+   
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+   
+  /* Footer left */
+   
+  .footer-distributed .footer-left{
+      width: 20%;
+  }
+   
+  .footer-distributed h3{
+      color:  #d7f199;
+      font: normal 36px 'Cookie', cursive;
+      margin: 0;
+  }
+   
+  /* The company logo */
+   
+  .footer-distributed .footer-left img{
+      width: 30%;
+  }
+   
+  .footer-distributed h3 span{
+      color:  #c486ee;
+  }
+   
+  /* Footer links */
+   
+  .footer-distributed .footer-links{
+      color:  #51c3e6;
+      margin: 20px 0 12px;
+  }
+   
+  .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+  }
+   
+  .footer-distributed .footer-company-name{
+      color:  #8f9296;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+  }
+   
+  /* Footer Center */
+   
+  .footer-distributed .footer-center{
+      width: 35%;
+  }
+   
+   
+  .footer-distributed .footer-center i{
+      background-color:  #33383b;
+      color: #f1b8b8;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+  }
+   
+  .footer-distributed .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+  }
+   
+  .footer-distributed .footer-center p{
+      display: inline-block;
+      color: #ffffff;
+      vertical-align: middle;
+      margin:0;
+  }
+   
+  .footer-distributed .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+  }
+   
+  .footer-distributed .footer-center p a{
+      color:  #e0ac1c;
+      text-decoration: none;;
+  }
+   
+   
+  /* Footer Right */
+   
+  .footer-distributed .footer-right{
+      width: 30%;
+  }
+   
+  .footer-distributed .footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+  }
+   
+  .footer-distributed .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+   
+  .footer-distributed .footer-icons{
+      margin-top: 25px;
+  }
+   
+  .footer-distributed .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+   
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+   
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+   
+  /* Here is the code for Responsive Footer */
+  /* You can remove below code if you don't want Footer to be responsive */
+   
+   
+  @media (max-width: 880px) {
+   
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+   
+      .footer-distributed .footer-center i{
+          margin-left: 0;
+      }
+   
+  }

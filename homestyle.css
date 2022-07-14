@@ -1,0 +1,381 @@
+header{
+
+    background-color: #2C3C5B ;
+    }
+.topnav{
+       float: right;
+}
+.topnav a{
+    display: inline-block;
+    color: #0AC5A8;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  header img{
+    width: 122px;
+    height: 61px;
+
+}
+#logo{
+    display: inline-block;
+    height: 120px;
+    width: 300px;}
+    
+
+body
+{
+
+    padding: 0%;
+    color:white;
+    
+    
+    
+}
+
+.login
+{
+
+    text-align: right;
+    color:whitesmoke ;
+
+}
+.logo
+{
+
+    width: 10px;
+
+}
+.middle
+ {
+
+    font-family: 'Piedra', cursive;
+    text-transform: capitalize;
+    background-color:rgba(255, 255, 255, .9);
+    text-align: center;
+    padding: 8px;
+    color:#044463 ;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.logbtn
+{
+
+    background: transparent;
+    color:whitesmoke ;
+    border: none;
+    font-family: sans-serif;
+    width: 70px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.box
+{
+
+    color:#044463 ;
+    background-color:rgba(255, 255, 255, .3);
+    height: 460px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px;
+    margin-top: 5px;
+    margin-left: auto;
+    box-shadow: 5px;
+    text-align: center;
+
+}
+.box.left-box,
+.box.right-box{
+
+    display: inline-block;
+	vertical-align: top;
+
+}
+.left-box
+{
+
+    background-color:rgba(255, 255, 255, .6) ;
+    text-align: center;
+    font: bolder;
+    height: fit-content;
+    width: 45%;
+
+}
+.right-box
+{
+    background-color:rgba(255, 255, 255, .6) ;
+    text-align: center;
+    height: fit-content;
+    width: 45%;
+}
+@media (max-width: 880px){
+
+    .box.left-box,
+    .box.right-box{
+        display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+
+    }
+}
+.job
+{
+
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(6, 0, 87);
+    height: 70%;
+
+}
+.left
+{
+
+    float: left;
+    margin-top: 0px;
+    height: 288px;
+    width: 91%;
+}
+.right
+{
+
+    height: 270px;
+    margin-top: 0px;
+
+}
+#r{
+
+    padding-top: 18px;
+
+}
+#btn
+{
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(7, 10, 156);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px ;
+}
+li{
+
+    font-family: 'Prompt', sans-serif;
+
+}
+h4{
+
+    font-family: 'Bree Serif', serif;
+
+}
+.jobseek{
+    background-color: blue;
+    color: cornsilk;
+    padding: 15px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+    footer { position: static; }
+	header { padding-top:5px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #2d454e;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 20%;
+}
+ 
+.footer-distributed h3{
+	color:  #d7f199;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footer-distributed h3 span{
+	color:  #c486ee;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #51c3e6;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #f1b8b8;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-icons{
+	margin-top: 25px;
+	
+}
+.fa:hover {
+	opacity: 0.7;
+	
+}
+.footer-icons{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+    border-radius: 2px;
+    
+    font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+}
